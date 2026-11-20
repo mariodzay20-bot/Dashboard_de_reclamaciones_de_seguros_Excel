@@ -10,6 +10,8 @@ Analizar volumen, costo y estado de reclamaciones para identificar cómo cambian
 - outputs/dashboard_reclamaciones_seguros.jpg
 - outputs/dashboard_reclamaciones_seguros_Seguros_autos_cdmx.jpg
 
+![Libro de Excel con el dashboard de reclamaciones de seguros, sus indicadores, filtros y datos por ramo y sucursal](/dashboard_reclamaciones_seguros.xlsx)
+
 
 ## Indicadores
 
@@ -37,7 +39,7 @@ Una reclamación en revisión no tiene días de resolución ni monto pagado. Una
 
 ## Dashboard en general
 
-![Dashboard_general](/outputs/dashboard_reclamaciones_seguros.jpg)
+![Dashboard general de reclamaciones de seguros con filtros por ramo y sucursal. Presenta 150 reclamaciones, un monto reclamado de $13,275,800 MXN y un monto pagado de $3,435,500 MXN; incluye indicadores de revisión, gráficos por estado, ramo y evolución mensual](/outputs/dashboard_reclamaciones_seguros.jpg)
 
 ## Hallazgo general
 
@@ -49,7 +51,7 @@ Auto concentra el mayor monto reclamado por ramo y julio registra el mayor monto
 
 ## Dashboard filtardo en autos de la CDMX
 
-![Dashboard_seguros_autos_CDMX](/outputs/dashboard_reclamaciones_seguros_Seguros_autos_cdmx.jpg)
+![Dashboard filtrado para reclamaciones de seguros de autos en CDMX. Muestra 15 reclamaciones, $1,336,800 MXN reclamados y $417,000 MXN pagados, además de indicadores de rechazo, casos en revisión y tiempo promedio de cierre](/outputs/dashboard_reclamaciones_seguros_Seguros_autos_cdmx.jpg)
 
 ## Hallazgo: Auto en CDMX
 
@@ -65,3 +67,4 @@ Este resultado sugiere revisar los motivos de rechazo y dar seguimiento a los ca
 - Tasa de rechazo: reclamaciones rechazadas divididas entre reclamaciones del filtro.
 - Días promedio al cierre: promedio de días de reclamaciones pagadas o rechazadas.
 - Monto en revisión: monto reclamado de los casos que siguen pendientes.
+
